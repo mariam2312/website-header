@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contineer{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    background-color: aqua;
+}
+.header .logo {
+    width: 40%;
+    float: left;
+}
+.header .nav{
+    width: 60%;
+    float: left;
+    list-style: none;
+}
+.header .nav li{
+    display: inline-block;
+    
+}
+.header .nav li a{
+    text-decoration: none;
+    color:blue;
+    display: block;
+    padding: 30px 20px;
+   
+}
+
+.clear {
+    clear: both;
+}
